@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lilita+One&display=swap');
+
+@font-face {
+  font-family: 'Frankfurter';
+  /* 2. Point to the file in your public folder */
+  src: url('/assets/Frankfurter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
