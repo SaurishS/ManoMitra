@@ -106,9 +106,9 @@ function StoryScreen({ baselineMood }) {
 
   // Welcome message (no change)
   useEffect(() => {
-    let firstLine = `Hello, I'm your Saathi. I noticed you might be feeling a bit ${baselineMood}. Let's try a short story to take your mind off things.`;
+    let firstLine = `Hello, I'm Manomitra your friend. I noticed you might be feeling a bit ${baselineMood}. Let's try a short story to take your mind off things.`;
     if (baselineMood === 'happy') {
-      firstLine = `Hello! I'm your Saathi. You seem to be in a great mood! Let's build on that with a story.`;
+      firstLine = `Hello! I'm Manomitra your friend. You seem to be in a great mood! Let's build on that with a story.`;
     }
 
     setTimeout(() => {
@@ -227,13 +227,13 @@ function StoryScreen({ baselineMood }) {
           />
         </button>
         <h1 className="text-3xl font-bold text-cyan-400">
-          Saathi Story-Weaver
+          Manomitra
         </h1>
         <p className="mt-4 h-16 text-center text-2xl text-gray-300">
           {micState === 'idle' && 'Press and hold the mic to talk'}
           {micState === 'recording' && 'Listening...'}
           {micState === 'thinking' && 'Thinking...'}
-          {micState === 'speaking' && 'Saathi is speaking...'}
+          {micState === 'speaking' && 'Manomitra is speaking...'}
         </p>
       </div>
 
