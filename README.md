@@ -1,16 +1,30 @@
-# React + Vite
+# ManoMitra (मनोमित्र) 🌿
+Your 100% Anonymous, Voice-Only AI Saathi for Mental Wellness.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ManoMitra is not just another wellness app; it is a digital companion. In a world of cluttered dashboards and invasive logins, ManoMitra offers an immersive, "voice-first" experience designed to distract, engage, and uplift users through the power of AI-driven generative storytelling.
 
-Currently, two official plugins are available:
+✨ The "One Thing": Saathi Story-Weaver
+The core experience is the Saathi Story-Weaver. Instead of a chat box, users interact with a reactive "Orb." The app "sees" your mood, "hears" your voice, and "weaves" a personalized story that adapts in real-time to your emotional state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Key Features
+Zero-Identity Privacy: No login, no accounts, and no data storage. 100% anonymity by design.
 
-## React Compiler
+Emotion-Aware Narrative: Using browser-based computer vision, the AI detects if you are anxious, sad, or happy and steers the story to calm or celebrate with you.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Immersive Voice Loop: Seamless integration of Speech-to-Text (STT) and Text-to-Speech (TTS) for a hands-free experience.
 
-## Expanding the ESLint configuration
+Crisis Safety (Tele-MANAS): Intelligent keyword monitoring. If the AI detects signs of extreme distress or crisis, it gently interrupts the story to offer professional help via the Tele-MANAS integration.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Privacy Toggle: A "Hide Camera" mode allows the mood detection to run in the background while keeping the user’s video feed hidden for a more comfortable experience.
+
+💻 Technical Architecture
+Frontend: Pure HTML5/CSS3/JavaScript (optimized for hackathon speed and low overhead).
+
+AI Engine: Google Gemini API (LLM) for generative dialogue and empathetic persona.
+
+Vision: face-api.js for client-side, real-time facial expression recognition.
+
+Speech: Web Speech API for low-latency browser-based synthesis and recognition.
+
+🛡 Safety & Ethics
+ManoMitra is built as a distraction and engagement tool, not a replacement for clinical therapy. The AI is hard-coded to prioritize safety and redirect users to certified helplines during critical moments.
