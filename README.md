@@ -1,5 +1,5 @@
 # ManoMitra (मनोमित्र) 🌿
-                                      Your 100% Anonymous, Voice-Only AI Saathi for Mental Wellness.
+                                Your 100% Anonymous, Voice-Only AI Saathi for Mental Wellness.
 
 ManoMitra is not just another wellness app; it is a digital companion. In a world of cluttered dashboards and invasive logins, ManoMitra offers an immersive, "voice-first" experience designed to distract, engage, and uplift users through the power of AI-driven generative storytelling.
 
